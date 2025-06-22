@@ -21,6 +21,9 @@ const statusDiv = document.getElementById('status');
 const btnCorrect = document.getElementById('btnCorrect');
 const btnIncorrect = document.getElementById('btnIncorrect');
 const btnBank = document.getElementById('btnBank');
+const modal = document.querySelector(".modal");
+const overlay = document.querySelector(".overlay");
+const modalboard = document.querySelector(".modalboard");
 
 function renderPlayers() {
     playersContainer.innerHTML = '';
@@ -102,7 +105,7 @@ function eliminatePlayer(index) {
     renderPlayers();
 
     const status = players[index].alive ? 'revived' : 'eliminated';
-    showAction(`${players[index].name} ${status}`);
+    showAction(`</div>${players[index].name} ${status}</div>`);
 
     const alivePlayers = players.filter(p => p.alive);
     if (alivePlayers.length === 1) {
@@ -276,7 +279,8 @@ updateStatus();
 
 // ==== TIMER LOGIC ====
 let timerInterval;
-let timeLeft = 120;
+let basetime = 120;
+let timeLeft = basetime;
 let isRunning = false;
 
 const timerDisplay = document.getElementById('timerDisplay');
@@ -314,7 +318,7 @@ function startTimer() {
         if (timeLeft <= 0) {
             clearInterval(timerInterval);
             isRunning = false;
-            toggleBtn.innerHTML = '<img id="toggleIcon" src="./img/battle.png" alt="Start/Pause" class="icon-only" /> Battle';
+            toggleBtn.innerHTML = '<img id="toggleIcon" src="./img/battle.png" class="icon-only" /> Battle';
             round++;
             prizePot += prizeLevels[currentChain];
             currentChain = 0;
@@ -322,6 +326,9 @@ function startTimer() {
             updateStatus();
 
             alert("Time to eliminate!");
+            if (round >= 4){
+                basetime = 90;
+            }
             resetTimer();
             return;
         }
@@ -336,10 +343,10 @@ function toggleTimer() {
         clearInterval(timerInterval);
         isRunning = false;
         showAction(`Paused`);
-        toggleBtn.innerHTML = '<img id="toggleIcon" src="./img/battle.png" alt="Start/Pause" class="icon-only" /> Battle';
+        toggleBtn.innerHTML = '<img id="toggleIcon" src="./img/battle.png" class="icon-only" /> Battle';
     } else {
         isRunning = true;
-        toggleBtn.innerHTML = '<img id="toggleIcon" src="./img/pause.png" alt="Start/Pause" class="icon-only" /> Pause';
+        toggleBtn.innerHTML = '<img id="toggleIcon" src="./img/pause.png" class="icon-only" /> Pause';
         startTimer();
     }
 }
@@ -347,11 +354,13 @@ function toggleTimer() {
 function resetTimer() {
     clearInterval(timerInterval);
     isRunning = false;
-    timeLeft = 120;
-    toggleBtn.innerHTML = '<img id="toggleIcon" src="./img/battle.png" alt="Start/Pause" class="icon-only" /> Battle';
+    timeLeft = basetime;
+    toggleBtn.innerHTML = '<img id="toggleIcon" src="./img/battle.png" class="icon-only" /> Battle';
     animateTimerChange();
     showAction(`Reset`);
 }
+
+
 
 toggleBtn.addEventListener('click', toggleTimer);
 resetBtn.addEventListener('click', resetTimer);
@@ -359,14 +368,14 @@ resetBtn.addEventListener('click', resetTimer);
 updateTimerDisplay();
 
 // ==== MODAL LOGIC ====
-const modal = document.querySelector(".modal");
-const overlay = document.querySelector(".overlay");
-const modalboard = document.querySelector(".modalboard");
+// const modal = document.querySelector(".modal");
+// const overlay = document.querySelector(".overlay");
+// const modalboard = document.querySelector(".modalboard");
 
-const closeModal = function () {
-    modal.classList.add("hidden");
-    overlay.classList.add("hidden");
-    modalboard.classList.add("hidden");
-};
+// const closeModal = function () {
+//     modal.classList.add("hidden");
+//     overlay.classList.add("hidden");
+//     modalboard.classList.add("hidden");
+// };
 
-overlay.addEventListener("click", closeModal);
+// overlay.addEventListener("click", closeModal);
