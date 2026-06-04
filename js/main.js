@@ -1,14 +1,14 @@
 // ==== GAME LOGIC ====
 const prizeLevels = [0, 10, 20, 35, 70, 100, 600];
 const players = [
-    { name: "Phoenix", alive: true, race: "phoenix" },
-    { name: "Unicorn", alive: true, race: "unicorn" },
-    { name: "Dragon", alive: true, race: "dragon" },
-    { name: "Centaur", alive: true, race: "centaur" },
-    { name: "Werewolf", alive: true, race: "werewolf" },
-    { name: "Pixie", alive: true, race: "pixie" },
-    { name: "Hippogriff", alive: true, race: "hippogriff" },
-    { name: "Basilisk", alive: true, race: "basilisk" },
+    { name: "Saber", alive: true, race: "Saber" },
+    { name: "Archer", alive: true, race: "Archer" },
+    { name: "Lancer", alive: true, race: "Lancer" },
+    { name: "Rider", alive: true, race: "Rider" },
+    { name: "Caster", alive: true, race: "Caster" },
+    { name: "Assassin", alive: true, race: "Assassin" },
+    { name: "Berserker", alive: true, race: "Berserker" },
+    { name: "Ruler", alive: true, race: "Ruler" },
 ];
 
 let prizePot = 0;
