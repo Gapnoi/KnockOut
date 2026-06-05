@@ -85,7 +85,7 @@ body {
 .player-card.Saber-card {
     background-image: url('../img/Saber.png');
     background-repeat: no-repeat;
-    background-size: 12vh;
+    background-size: 10vh;
     background-position: right center;
     background-color: #b1580057;;
     color: #333;
@@ -96,7 +96,7 @@ body {
 .player-card.Archer-card {
     background-image: url('../img/Archer.png');
     background-repeat: no-repeat;
-    background-size: 12vh;
+    background-size: 10vh;
     background-position: right 45%;
     background-color: #b1580057;;
     color: #333;
@@ -107,7 +107,7 @@ body {
 .player-card.Lancer-card {
     background-image: url('../img/Lancer.png');
     background-repeat: no-repeat;
-    background-size: 12vh;
+    background-size: 10vh;
     background-position: right 60%;
     background-color: #b1580057;;
     color: #333;
@@ -129,7 +129,7 @@ body {
 .player-card.Caster-card {
     background-image: url('../img/Caster.png');
     background-repeat: no-repeat;
-    background-size: 11vh;
+    background-size: 10vh;
     background-position: right center;
     background-color: #b1580057;;
     color: #333;
@@ -140,7 +140,7 @@ body {
 .player-card.Assassin-card {
     background-image: url('../img/Assassin.png');
     background-repeat: no-repeat;
-    background-size: 11vh;
+    background-size: 12vh;
     background-position: right 30%;
     background-color: #b1580057;;
     color: #333;
