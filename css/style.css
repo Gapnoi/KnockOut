@@ -82,8 +82,8 @@ body {
     overflow: hidden;
 }
 
-.player-card.phoenix-card {
-    background-image: url('../img/phoenix.png');
+.player-card.Saber-card {
+    background-image: url('../img/Saber.png');
     background-repeat: no-repeat;
     background-size: 12vh;
     background-position: right center;
@@ -93,8 +93,8 @@ body {
     padding-right: 70px;
 }
 
-.player-card.unicorn-card {
-    background-image: url('../img/unicorn.png');
+.player-card.Archer-card {
+    background-image: url('../img/Archer.png');
     background-repeat: no-repeat;
     background-size: 12vh;
     background-position: right 45%;
@@ -104,8 +104,8 @@ body {
     padding-right: 70px;
 }
 
-.player-card.dragon-card {
-    background-image: url('../img/dragon.png');
+.player-card.Lancer-card {
+    background-image: url('../img/Lancer.png');
     background-repeat: no-repeat;
     background-size: 12vh;
     background-position: right 60%;
@@ -115,8 +115,8 @@ body {
     padding-right: 70px;
 }
 
-.player-card.centaur-card {
-    background-image: url('../img/centaur.png');
+.player-card.Rider-card {
+    background-image: url('../img/Rider.png');
     background-repeat: no-repeat;
     background-size: 11vh;
     background-position: right 10%;
@@ -126,8 +126,8 @@ body {
     padding-right: 70px;
 }
 
-.player-card.werewolf-card {
-    background-image: url('../img/werewolf.png');
+.player-card.Caster-card {
+    background-image: url('../img/Caster.png');
     background-repeat: no-repeat;
     background-size: 11vh;
     background-position: right center;
@@ -137,8 +137,8 @@ body {
     padding-right: 70px;
 }
 
-.player-card.pixie-card {
-    background-image: url('../img/pixie.png');
+.player-card.Assassin-card {
+    background-image: url('../img/Assassin.png');
     background-repeat: no-repeat;
     background-size: 11vh;
     background-position: right 30%;
@@ -148,8 +148,8 @@ body {
     padding-right: 70px;
 }
 
-.player-card.hippogriff-card {
-    background-image: url('../img/hippogriff.png');
+.player-card.Berserker-card {
+    background-image: url('../img/Berserker.png');
     background-repeat: no-repeat;
     background-size: 11vh;
     background-position: right 25%;
@@ -159,8 +159,8 @@ body {
     padding-right: 70px;
 }
 
-.player-card.basilisk-card {
-    background-image: url('../img/basilisk.png');
+.player-card.Ruler-card {
+    background-image: url('../img/Ruler.png');
     background-repeat: no-repeat;
     background-size: 12vh;
     background-position: right 20%;
