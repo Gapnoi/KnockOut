@@ -85,9 +85,9 @@ body {
 .player-card.Saber-card {
     background-image: url('../img/Saber.png');
     background-repeat: no-repeat;
-    background-size: 10vh;
-    background-position: right center;
-    background-color: #b1580057;;
+    background-size: contain;
+    background-position: right 20px center;
+    background-color: #b1580057;
     color: #333;
     text-shadow: none;
     padding-right: 70px;
@@ -96,9 +96,9 @@ body {
 .player-card.Archer-card {
     background-image: url('../img/Archer.png');
     background-repeat: no-repeat;
-    background-size: 10vh;
-    background-position: right 45%;
-    background-color: #b1580057;;
+    background-size: contain;
+    background-position: right 20px center;
+    background-color: #b1580057;
     color: #333;
     text-shadow: none;
     padding-right: 70px;
@@ -107,9 +107,9 @@ body {
 .player-card.Lancer-card {
     background-image: url('../img/Lancer.png');
     background-repeat: no-repeat;
-    background-size: 10vh;
-    background-position: right 60%;
-    background-color: #b1580057;;
+    background-size: contain;
+    background-position: right 20px center;
+    background-color: #b1580057;
     color: #333;
     text-shadow: none;
     padding-right: 70px;
@@ -118,9 +118,9 @@ body {
 .player-card.Rider-card {
     background-image: url('../img/Rider.png');
     background-repeat: no-repeat;
-    background-size: 11vh;
-    background-position: right 10%;
-    background-color: #b1580057;;
+    background-size: contain;
+    background-position: right 20px center;
+    background-color: #b1580057;
     color: #333;
     text-shadow: none;
     padding-right: 70px;
@@ -129,9 +129,9 @@ body {
 .player-card.Caster-card {
     background-image: url('../img/Caster.png');
     background-repeat: no-repeat;
-    background-size: 10vh;
-    background-position: right center;
-    background-color: #b1580057;;
+    background-size: contain;
+    background-position: right 20px center;
+    background-color: #b1580057;
     color: #333;
     text-shadow: none;
     padding-right: 70px;
@@ -140,9 +140,9 @@ body {
 .player-card.Assassin-card {
     background-image: url('../img/Assassin.png');
     background-repeat: no-repeat;
-    background-size: 12vh;
-    background-position: right 30%;
-    background-color: #b1580057;;
+    background-size: contain;
+    background-position: right 20px center;
+    background-color: #b1580057;
     color: #333;
     text-shadow: none;
     padding-right: 70px;
@@ -151,9 +151,9 @@ body {
 .player-card.Berserker-card {
     background-image: url('../img/Berserker.png');
     background-repeat: no-repeat;
-    background-size: 11vh;
-    background-position: right 25%;
-    background-color: #b1580057;;
+    background-size: contain;
+    background-position: right 20px center;
+    background-color: #b1580057;
     color: #333;
     text-shadow: none;
     padding-right: 70px;
@@ -162,9 +162,9 @@ body {
 .player-card.Ruler-card {
     background-image: url('../img/Ruler.png');
     background-repeat: no-repeat;
-    background-size: 12vh;
-    background-position: right 20%;
-    background-color: #b1580057;;
+    background-size: contain;
+    background-position: right 20px center;
+    background-color: #b1580057;
     color: #333;
     text-shadow: none;
     padding-right: 70px;
